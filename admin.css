@@ -1,0 +1,133 @@
+*{
+    font-style:sans-serif;
+}
+
+.container{
+ min-height: 100vh;
+ display: flex;
+align-items: center;
+ justify-content: center;
+ padding:20px;
+ padding-bottom: 60px;
+ }
+.container .content{
+text-align: center;
+
+ }
+ .container .content h1{
+ background-color: #ffac58 ;
+ border-radius: 20px;
+        
+ }
+.container .content .button{
+ background-color: #0c0b09;
+ border: 2px #ffffff;
+
+ }
+.container .content .button{
+display: inline-block;
+padding:10px 30px;
+font-size: 20px;
+background:#7c3e3e;
+ color: #fff;
+ margin:0 5px;
+ }
+ .container .content .button:hover{
+ background: #ffac58;
+
+ }
+       
+ .form-container{
+ min-height: 100vh;
+display: flex;
+align-items: center;
+ justify-content: center;
+ padding:20px;
+ padding-bottom: 60px;
+ background: rgb(255, 255, 255);
+ 
+ 
+ }
+ .form-container form{
+ padding:17px;
+ border-radius: 5px;
+ box-shadow: 0 5px 10px rgba(20, 19, 19, 0.1);
+ background: rgb(255, 255, 255);
+ text-align: center; 
+ }
+ .form-container form h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #333;
+    }
+    .form-container form input{
+    width: 100%;
+    padding:10px 15px;
+    font-size: 20px;
+    } 
+.form-container form input,
+.form-container form select{
+width: 100%;
+padding:8px 13px;
+font-size: 17px;
+margin:8px 0;
+background: #ffffff;
+}
+.msg{
+    font-size: 50px;
+    color: #ffac58;
+
+
+
+}
+
+    
+
+
+
+    
+#button{
+    
+        background-color: #fff; 
+        
+        color: rgb(0, 0, 0);
+      padding:12px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      
+}
+#button:hover{
+    letter-spacing:0.1rem ;
+    letter-spacing: 0.1rem;
+    background-color: #ffac58;
+}
+#register{
+    background-color: #fff; 
+        border: 2px solid #ffac58;
+    color: rgb(0, 0, 0);
+  padding:12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#register:hover{
+    letter-spacing:0.1rem ;
+    letter-spacing: 0.1rem;
+    background-color: #ffac58;
+}
+.but{
+    background-color: #fff; 
+        
+        color: rgb(0, 0, 0);
+      padding:12px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+ 

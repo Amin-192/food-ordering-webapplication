@@ -1,0 +1,66 @@
+.products{
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 20px;
+    
+}
+
+.container table{
+    margin-top: 60px;
+}
+.nlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px 15px;
+    position: relative;
+    background-color: #ebce98;
+    }
+    .nlinks ul li a{
+    color: rgb(225, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    }
+    .nlinks ul li ::after{
+       content: '';
+       width: 0%;
+       height: 2.5px;
+       background: #ffac58;
+       display: block;
+       margin: auto;
+       transition: 0.5s;
+       }
+       .nlinks ul li:hover ::after{
+       width: 100%;
+       }
+      .spanclass{
+        font-size: 20px;
+      }
+	  h1{
+        font-size: 20px;
+        grid-column: 1/-1;
+        text-align: center;
+     }
+    .header{
+        position: relative;
+        height: 16vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('food.png');
+        background-size: cover;
+        background-position: center center;
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+    .spanclass{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .spanclass h1{
+        text-align: center;
+    }
